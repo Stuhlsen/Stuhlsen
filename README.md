@@ -12,6 +12,14 @@
 ## QA toolbox
 Test case design · exploratory testing · Vitest · Pytest · Playwright (browser checks) · WCAG 2.1 · GitHub Actions · Docker
 
+## How I work with AI
+I build with AI coding agents (Claude Code) and a self-built multi-agent pipeline with bots for coding, review and orchestration. I treat their output like any other code under test:
+- **Spec first:** every feature starts as a written plan, cut into small stages
+- **Review-gated:** nothing is merged without passing CI and my own review
+- **Cost control:** each task goes to the cheapest model that can do it, within token and spend budgets
+- **Data protection:** no secrets, credentials or personal data are ever sent to a model
+
+
 ## Background
 - 🎓 Masterschool Software Engineering Bootcamp, QA specialization (2,720 h, 2025–2026)
 - 🧪 QA internship at Legal Pythia: tested five client projects
